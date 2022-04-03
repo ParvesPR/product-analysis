@@ -1,0 +1,13 @@
+.nav_bar {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.nav_bar a {
+    margin: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
