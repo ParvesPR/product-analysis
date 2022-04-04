@@ -1,0 +1,11 @@
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.line-chart-title {
+    text-align: center;
+}
+.bar-chart-title {
+    text-align: center;
+}
