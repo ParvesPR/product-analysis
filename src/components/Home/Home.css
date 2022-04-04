@@ -1,0 +1,41 @@
+.home-container{
+    margin: 50px 80px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+
+}
+.banner-text{
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+}
+.first-banner-title{
+    font-weight: 900;
+    color: #ff5200;
+    text-transform: uppercase;
+}
+.second-banner-title{
+    font-weight: 900;
+    color: blue;
+    text-transform: uppercase;
+}
+.banner-text p{
+    font-size: 1rem;
+    color: #111;
+    line-height: 1.5rem;
+}
+.banner-img img{
+    width: 450PX;
+}
+.banner-btn{
+    padding: 18px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #ddd;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+}
