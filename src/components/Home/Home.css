@@ -39,3 +39,9 @@
     color: rgb(97, 97, 97);
     cursor: pointer;
 }
+.reviews{
+    margin: 40px 80px;
+}
+.review-title{
+    text-align: center;
+}

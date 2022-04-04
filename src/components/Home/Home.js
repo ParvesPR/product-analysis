@@ -16,6 +16,9 @@ const Home = () => {
                     <img src={Camera} alt="" />
                 </div>
             </div>
+            <div className="reviews">
+                <h1 className='review-title'>Customer Reviews :</h1>
+            </div>
         </div>
     );
 };
