@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="reviews">
-                <h1 className='review-title'>Customer Reviews :</h1>
+                <h1 className='home-review-title'>Customer Reviews :</h1>
             </div>
         </div>
     );

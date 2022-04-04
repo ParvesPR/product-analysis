@@ -3,36 +3,42 @@
         "name": "John Smith",
         "ratings": 4.3,
         "img": "https://pas-wordpress-media.s3.amazonaws.com/wp-content/uploads/2013/07/Christian-at-Big-Step-Consulting.jpg",
-        "comment": "Purchased this camera about a month ago and am completely satisfied with it. I upgraded from the Sony a3000. I currently am using it with an APS-C lens not a full frame lens, but the quality of the photos is amazing. "
+        "comment": "Purchased this camera about a month ago and am completely satisfied with it. I upgraded from the Sony a3000. I currently am using it with an APS-C lens not a full frame lens, but the quality of the photos is amazing. ",
+        "id": 1
     },
     {
         "name": "Pro Dude",
         "ratings": 4.3,
         "img": "https://qph.fs.quoracdn.net/main-thumb-2160265-200-aohjqfhqdrmoxbcjjkwcegkkdatkgksy.jpeg",
-        "comment": "Excellent camera. Lightweight. Satisfied with the purchase from Best Buy. Was able to use the moving coupon and save some money."
+        "comment": "Excellent camera. Lightweight. Satisfied with the purchase from Best Buy. Was able to use the moving coupon and save some money.",
+        "id": 2
     },
     {
         "name": "Maureen Biologist.",
         "ratings": 4.1,
         "img": "https://qph.cf2.quoracdn.net/main-thumb-287887385-200-knuprbjxjeieclhddpuccifwyuqrhjei.jpeg",
-        "comment": "Got for my 15 year old that does photography, he is pretty good and now gets paid to take pictures!! Great camera!"
+        "comment": "Got for my 15 year old that does photography, he is pretty good and now gets paid to take pictures!! Great camera!",
+        "id": 3
     },
     {
         "name": "Aida Bugg.",
         "ratings": 4.7,
         "img": "https://qph.fs.quoracdn.net/main-thumb-64298899-200-izdgzwqhrkdlwvwpyhgbtcftiqosjetd.jpeg",
-        "comment": "Perfect camera for people that want something lighter than a DSLR. It has amazing auto focus as well! With a clean and sleek design. I would recommend."
+        "comment": "Perfect camera for people that want something lighter than a DSLR. It has amazing auto focus as well! With a clean and sleek design. I would recommend.",
+        "id": 4
     },
     {
         "name": "Markitors Brett",
         "ratings": 4.5,
         "img": "https://www.salesforce.com/blog/wp-content/uploads/sites/2/2020/09/brett20grossfeld-1.jpg?w=225",
-        "comment": "I've been reviewing this camera for a long time and finally found a reason to buy it. Took a trip to ireland in Oct and it was so light weight, captured great photos and videos."
+        "comment": "I've been reviewing this camera for a long time and finally found a reason to buy it. Took a trip to ireland in Oct and it was so light weight, captured great photos and videos.",
+        "id": 5
     },
     {
         "name": "Paddy O'Furniture.",
         "ratings": 4.9,
         "img": "https://s3.amazonaws.com/mentoring.redesign/Markitors-Brett-Farmiloe-sm.jpg",
-        "comment": "I shoot a lot of weddings, portraits, and events. This little guy can get the job done and some! It's an amazing camera, and more than capable for any job or any hobbyist who knows there way around a camera"
+        "comment": "I shoot a lot of weddings, portraits, and events. This little guy can get the job done and some! It's an amazing camera, and more than capable for any job or any hobbyist who knows there way around a camera",
+        "id": 6
     }
 ]
