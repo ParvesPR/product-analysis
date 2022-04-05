@@ -1,8 +1,11 @@
 import React from 'react';
 import './Home.css';
 import Camera from '../../Images/camera.jpg'
+import useReviews from '../../hooks/useReviews';
+import HomeReviews from '../HomeReviews/HomeReviews';
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
     return (
         <div className='home-container'>
             <div className="banner">
@@ -17,7 +20,12 @@ const Home = () => {
                 </div>
             </div>
             <div className="reviews">
-                <h1 className='home-review-title'>Customer Reviews :</h1>
+                {
+                    reviews.slice(0, 3).map(review => <HomeReviews
+                        key={review.id}
+                        review={review}
+                    ></HomeReviews>)
+                }
             </div>
         </div>
     );
