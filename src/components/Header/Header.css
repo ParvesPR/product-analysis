@@ -10,4 +10,6 @@
     text-decoration: none;
     font-weight: 600;
     color: black;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
 }
