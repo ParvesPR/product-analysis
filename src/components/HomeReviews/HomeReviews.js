@@ -12,6 +12,7 @@ const HomeReviews = ({ review }) => {
                     <p>Customer Review: {comment}</p>
                 </div>
             </div>
+           
         </div>
 
     );

@@ -4,8 +4,13 @@ import Camera from '../../Images/camera.jpg'
 import useReviews from '../../hooks/useReviews';
 import HomeReviews from '../HomeReviews/HomeReviews';
 import Header from '../Header/Header';
+import { useNavigate } from 'react-router-dom';
 const Home = () => {
     const [reviews, setReviews] = useReviews();
+    const navigate = useNavigate();
+    const showAllReviews = () => {
+        navigate('/reviews')
+    }
     return (
         <div className='home-container'>
             <Header></Header>
@@ -20,7 +25,7 @@ const Home = () => {
                     <img src={Camera} alt="" />
                 </div>
             </div>
-            <div>
+            <div className='review-wrapper'>
                 <h1 className='customer-review-title'>Customer Reviews</h1>
                 <div className="reviews-container">
                     {
@@ -30,7 +35,9 @@ const Home = () => {
                         ></HomeReviews>)
                     }
                 </div>
-
+                <button className='review-btn' onClick={showAllReviews}>
+                   <span> See all reviews</span>
+                </button>
             </div>
         </div>
     );

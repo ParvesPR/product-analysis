@@ -56,3 +56,17 @@
 .customer-review-title {
     text-align: center;
 }
+
+.review-btn{
+    display:flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto; 
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background: rgb(0, 0, 205);
+    color: white;
+    cursor: pointer;
+
+}
