@@ -3,11 +3,12 @@ import './Home.css';
 import Camera from '../../Images/camera.jpg'
 import useReviews from '../../hooks/useReviews';
 import HomeReviews from '../HomeReviews/HomeReviews';
-
+import Header from '../Header/Header';
 const Home = () => {
     const [reviews, setReviews] = useReviews();
     return (
         <div className='home-container'>
+            <Header></Header>
             <div className="banner">
                 <div className="banner-text">
                     <h1 className='first-banner-title'>Your Next Choice</h1>
@@ -19,13 +20,17 @@ const Home = () => {
                     <img src={Camera} alt="" />
                 </div>
             </div>
-            <div className="reviews">
-                {
-                    reviews.slice(0, 3).map(review => <HomeReviews
-                        key={review.id}
-                        review={review}
-                    ></HomeReviews>)
-                }
+            <div>
+                <h1 className='customer-review-title'>Customer Reviews</h1>
+                <div className="reviews-container">
+                    {
+                        reviews.slice(0, 3).map(review => <HomeReviews
+                            key={review.id}
+                            review={review}
+                        ></HomeReviews>)
+                    }
+                </div>
+
             </div>
         </div>
     );

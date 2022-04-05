@@ -1,7 +1,7 @@
 import React from 'react';
 import './Charts.css';
 import { Bar, BarChart, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
-
+import Header from '../Header/Header';
 const Charts = () => {
     const data = [
         {
@@ -42,7 +42,9 @@ const Charts = () => {
         }
     ]
     return (
-        <div className='chart-container'>
+        <div>
+            <Header></Header>
+            <div className='chart-container'>
             <div className="line-chart">
                 <h1 className='line-chart-title'>Sell</h1>
                 <LineChart width={600} height={400} data={data}>
@@ -64,6 +66,7 @@ const Charts = () => {
                     <Legend></Legend>
                 </BarChart>
             </div>
+        </div>
         </div>
     );
 };

@@ -1,12 +1,15 @@
 import React from 'react';
 import useReviews from '../../hooks/useReviews';
+import Header from '../Header/Header';
 import Review from '../Review/Review';
 import './Reviews.css';
 
 const Reviews = () => {
     const [reviews] = useReviews();
+   
     return (
         <div>
+             <Header></Header>
             <h1 className='reviews-title'>What's say our Customer's</h1>
             <div className='reviews'>
                 {

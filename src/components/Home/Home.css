@@ -1,35 +1,42 @@
-.home-container{
+.home-container {
     margin: 50px 80px;
 }
-.banner{
+
+.banner {
     display: grid;
     grid-template-columns: 3fr 2fr;
     align-items: center;
 
 }
-.banner-text{
+
+.banner-text {
     font-size: 1.6rem;
     line-height: 1.4rem;
 }
-.first-banner-title{
+
+.first-banner-title {
     font-weight: 900;
     color: #ff5200;
     text-transform: uppercase;
 }
-.second-banner-title{
+
+.second-banner-title {
     font-weight: 900;
     color: blue;
     text-transform: uppercase;
 }
-.banner-text p{
+
+.banner-text p {
     font-size: 1rem;
     color: #111;
     line-height: 1.5rem;
 }
-.banner-img img{
+
+.banner-img img {
     width: 450PX;
 }
-.banner-btn{
+
+.banner-btn {
     padding: 18px 25px;
     border: none;
     border-radius: 5px;
@@ -39,9 +46,13 @@
     color: rgb(97, 97, 97);
     cursor: pointer;
 }
-.reviews{
-    margin: 40px 80px;
+
+.reviews-container {
+    margin: 40px 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
-.reviews h1{
+
+.customer-review-title {
     text-align: center;
 }
