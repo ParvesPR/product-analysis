@@ -1,0 +1,17 @@
+.blog-container{
+    margin: 40px 80px;
+}
+.semantic-tag{
+    background: purple;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.context-api{
+    background: olive;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
